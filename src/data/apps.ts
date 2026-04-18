@@ -29,7 +29,7 @@ export const apps: AppItem[] = [
     tagline: '',
     description: '矢量绘图、UI设计、原型制作一体化，释放你的创作潜能。',
     category: 'creative',
-    imageUrl: 'https://i.postimg.cc/D05BSg6D/xin-sheng-tian-guo-ji.jpg',
+    imageUrl: 'https://pic1.imgdb.cn/item/69df01c6f76f4dd14b4c2858.jpg',
     linkUrl: 'https://mgokgd.jgqvji.com/app/register.php?site_id=1061&pt=08A0E1AF-96B3-A9C8-6E51-1D02FD14ABAC',
     badge: '新品上线',
     rating: 4.8,
