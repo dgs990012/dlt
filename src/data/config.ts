@@ -28,7 +28,7 @@ export const banners: BannerItem[] = [
 ];
 
 export const footerBrand = {
-  name: 'AppHub',
+  name: 'NG集团',
   description: '精心筛选每一款优质应用，为你发现更好的数字生活。',
   copyright: '© 2025 AppHub. 保留所有权利。',
   tagline: '以极简之美，聚合无限可能',
