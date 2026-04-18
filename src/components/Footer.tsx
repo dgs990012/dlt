@@ -1,8 +1,5 @@
 import { Grid3x3 as Grid3X3 } from 'lucide-react';
-
-const links = [
-  { group: '关于', items: ['关于我们', '联系我们', '隐私政策', '服务条款'] },
-];
+import { footerBrand, footerLinks } from '../data/config';
 
 export default function Footer() {
   return (
@@ -14,14 +11,12 @@ export default function Footer() {
               <div className="w-8 h-8 bg-gray-900 rounded-lg flex items-center justify-center">
                 <Grid3X3 size={16} className="text-white" />
               </div>
-              <span className="text-gray-900 font-semibold text-lg tracking-tight">AppHub</span>
+              <span className="text-gray-900 font-semibold text-lg tracking-tight">{footerBrand.name}</span>
             </div>
-            <p className="text-sm text-gray-400 leading-relaxed">
-              精心筛选每一款优质应用，<br />为你发现更好的数字生活。
-            </p>
+            <p className="text-sm text-gray-400 leading-relaxed">{footerBrand.description}</p>
           </div>
 
-          {links.map((col) => (
+          {footerLinks.map((col) => (
             <div key={col.group}>
               <h4 className="text-sm font-semibold text-gray-800 mb-4">{col.group}</h4>
               <ul className="space-y-3">
@@ -41,10 +36,8 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-100 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-gray-400">© 2025 AppHub. 保留所有权利。</p>
-          <p className="text-xs text-gray-400">
-            以极简之美，聚合无限可能
-          </p>
+          <p className="text-xs text-gray-400">{footerBrand.copyright}</p>
+          <p className="text-xs text-gray-400">{footerBrand.tagline}</p>
         </div>
       </div>
     </footer>

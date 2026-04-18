@@ -2,7 +2,8 @@ import Header from './components/Header';
 import HeroBanner from './components/HeroBanner';
 import AppGrid from './components/AppGrid';
 import Footer from './components/Footer';
-import { apps, banners } from './data/apps';
+import { apps } from './data/apps';
+import { banners } from './data/config';
 
 export default function App() {
   return (

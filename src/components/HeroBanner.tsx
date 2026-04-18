@@ -89,12 +89,6 @@ export default function HeroBanner({ banners }: HeroBannerProps) {
         <ChevronRight size={14} />
       </button>
 
-      <style>{`
-        @keyframes fadeSlideUp {
-          from { opacity: 0; transform: translateY(20px); }
-          to { opacity: 1; transform: translateY(0); }
-        }
-      `}</style>
     </section>
   );
 }
