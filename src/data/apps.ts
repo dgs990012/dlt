@@ -19,7 +19,7 @@ export const apps: AppItem[] = [
     category: 'productivity',
     imageUrl: 'https://pic1.imgdb.cn/item/68692e6658cb8da5c89176fd.jpg',
     linkUrl: 'https://bakmry.gziasti.com/app/register.php?site_id=1050&topId=880722&selfPlanId=855049',
-    badge: '编辑推荐',
+    badge: '热门',
     rating: 4.9,
     downloads: '120万+',
   },
