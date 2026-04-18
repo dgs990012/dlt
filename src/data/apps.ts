@@ -65,7 +65,7 @@ export const apps: AppItem[] = [
     tagline: '',
     description: '睡眠、运动、冥想一体化追踪，科学指导你的健康生活。',
     category: 'health',
-    imageUrl: 'https://pic1.imgdb.cn/item/69e2f37a087b33b46ad7bb38.jpg',
+    imageUrl: 'https://i.postimg.cc/FzGDYZpB/xin-TOP-ti-yu.jpg',
     linkUrl: 'https://bakmry.gziasti.com/app/register.php?site_id=1051&topId=457911',
     badge: '热门',
     rating: 4.8,
