@@ -14,7 +14,7 @@ export const apps: AppItem[] = [
   {
     id: 'app1',
     name: '非凡娱乐',
-    tagline: '可视化任务管理',
+    tagline: '',
     description: '用看板与时间轴掌控每一个项目进度，让团队协作更流畅。',
     category: 'productivity',
     imageUrl: 'https://pic1.imgdb.cn/item/68692e6658cb8da5c89176fd.jpg',
@@ -26,7 +26,7 @@ export const apps: AppItem[] = [
   {
     id: 'app2',
     name: '梦想国际',
-    tagline: '专业图形设计工具',
+    tagline: '',
     description: '矢量绘图、UI设计、原型制作一体化，释放你的创作潜能。',
     category: 'creative',
     imageUrl: 'https://i.postimg.cc/hPT71YSf/meng-xiang-guo-ji.jpg',
@@ -38,7 +38,7 @@ export const apps: AppItem[] = [
   {
     id: 'app3',
     name: '君临国际',
-    tagline: '极速加密通讯',
+    tagline: '',
     description: '端对端加密，零广告，保护每一条私信的安全与隐私。',
     category: 'social',
     imageUrl: 'https://pic1.imgdb.cn/item/695248a74b4fb88febf26626.jpg',
@@ -49,7 +49,7 @@ export const apps: AppItem[] = [
   {
     id: 'app4',
     name: '汇赢国际',
-    tagline: '个人资产全景视图',
+    tagline: '',
     description: '智能追踪收支、投资组合与目标储蓄，让财务清晰可见。',
     category: 'finance',
     imageUrl: 'https://pic1.imgdb.cn/item/69da7d4e757fdade5eafac10.jpg',
@@ -60,7 +60,7 @@ export const apps: AppItem[] = [
   {
     id: 'app5',
     name: 'top1体育',
-    tagline: '身心健康记录',
+    tagline: '',
     description: '睡眠、运动、冥想一体化追踪，科学指导你的健康生活。',
     category: 'health',
     imageUrl: 'https://pic1.imgdb.cn/item/69e2f37a087b33b46ad7bb38.jpg',
@@ -72,7 +72,7 @@ export const apps: AppItem[] = [
   {
     id: 'app6',
     name: '新时代',
-    tagline: '离线影音管理器',
+    tagline: '',
     description: '整合多平台片单，支持离线缓存，随时随地享受高清内容。',
     category: 'entertainment',
     imageUrl: 'https://i.postimg.cc/t4SjcBzw/xin-shi-dai.jpg',
@@ -83,7 +83,7 @@ export const apps: AppItem[] = [
   {
     id: 'app7',
     name: '问鼎娱乐',
-    tagline: '智能笔记与知识库',
+    tagline: '',
     description: '双向链接、AI摘要、多端同步，构建你的第二大脑。',
     category: 'productivity',
     imageUrl:'https://pic1.imgdb.cn/item/6984d021312b01a291a7449f.webp',
@@ -95,7 +95,7 @@ export const apps: AppItem[] = [
   {
     id: 'app8',
     name: '壹号娱乐',
-    tagline: 'AI配色与调色板',
+    tagline: '',
     description: '从图片提取调色板，AI生成配色方案，一键导出设计规范。',
     category: 'creative',
     imageUrl:'https://pic1.imgdb.cn/item/688c1d0e58cb8da5c8f69d21.webp',
@@ -106,7 +106,7 @@ export const apps: AppItem[] = [
   {
     id: 'app9',
     name: '胜天国际',
-    tagline: '兴趣社群平台',
+    tagline: '',
     description: '基于兴趣标签匹配，加入同频圈子，发现真实的人与故事。',
     category: 'social',
     imageUrl: 'https://pic1.imgdb.cn/item/69e2f37a087b33b46ad7bb39.jpg',
@@ -117,7 +117,7 @@ export const apps: AppItem[] = [
   {
     id: 'app10',
     name: '超凡国际',
-    tagline: '加密货币实时行情',
+    tagline: '',
     description: '多交易所聚合行情、智能预警与持仓分析，把握市场脉搏。',
     category: 'finance',
     imageUrl: 'https://pic1.imgdb.cn/item/68692e6558cb8da5c89176f7.jpg',
@@ -129,7 +129,7 @@ export const apps: AppItem[] = [
   {
     id: 'app11',
     name: '东升国际',
-    tagline: '正念与冥想引导',
+    tagline: '',
     description: '精选冥想课程与呼吸练习，帮助你减压、专注、更好入睡。',
     category: 'health',
     imageUrl: 'https://pic1.imgdb.cn/item/68692e6758cb8da5c89176fe.jpg',
@@ -140,7 +140,7 @@ export const apps: AppItem[] = [
   {
     id: 'app12',
     name: '征途国际',
-    tagline: '移动端音乐制作',
+    tagline: '',
     description: '专业采样、混音、母带处理，在手机上完成专辑级别的创作。',
     category: 'entertainment',
     imageUrl: 'https://pic1.imgdb.cn/item/68692e6658cb8da5c89176fc.jpg',
@@ -152,7 +152,7 @@ export const apps: AppItem[] = [
     {
     id: 'app13',
     name: '巅峰国际',
-    tagline: '移动端音乐制作',
+    tagline: '',
     description: '专业采样、混音、母带处理，在手机上完成专辑级别的创作。',
     category: 'entertainment',
     imageUrl: 'https://pic1.imgdb.cn/item/68692e6658cb8da5c89176f8.jpg',
@@ -164,7 +164,7 @@ export const apps: AppItem[] = [
     {
     id: 'app14',
     name: 'NG南宫',
-    tagline: '移动端音乐制作',
+    tagline: '',
     description: '专业采样、混音、母带处理，在手机上完成专辑级别的创作。',
     category: 'entertainment',
     imageUrl: 'https://pic1.imgdb.cn/item/689dd5ec58cb8da5c8251893.jpg',
