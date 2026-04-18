@@ -2,7 +2,7 @@ import { BannerItem } from '../types';
 
 export const siteConfig = {
   name: 'NG集团',
-  logoUrl: '',
+  logoUrl: 'https://pic1.imgdb.cn/item/689dd5ec58cb8da5c8251893.jpg',
 };
 
 export const banners: BannerItem[] = [
