@@ -112,7 +112,7 @@ export const apps: AppItem[] = [
     tagline: '',
     description: '基于兴趣标签匹配，加入同频圈子，发现真实的人与故事。',
     category: 'social',
-    imageUrl: 'https://pic1.imgdb.cn/item/69e2f37a087b33b46ad7bb39.jpg',
+    imageUrl: 'https://i.postimg.cc/D05BSg6D/xin-sheng-tian-guo-ji.jpg',
     linkUrl: 'https://tfajn.hcjwj.com/app/register.php?site_id=1058&topId=26442&selfPlanId=1692',
     badge: '热门',
     rating: 4.4,
