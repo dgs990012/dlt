@@ -4,7 +4,7 @@ export const banners: BannerItem[] = [
   {
     id: 'b1',
     title: '',
-    subtitle: '智能协作，让创意无边界流动',
+    subtitle: '',
     imageUrl: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1200',
     linkUrl: '#',
     accentColor: '#0ea5e9',
@@ -12,7 +12,7 @@ export const banners: BannerItem[] = [
   {
     id: 'b2',
     title: '',
-    subtitle: '专业工具，助力每一位创作者',
+    subtitle: '',
     imageUrl: 'https://i.postimg.cc/wB0vbRWY/du-li-tong-zhi-ding2.webp',
     linkUrl: '#',
     accentColor: '#10b981',
@@ -20,7 +20,7 @@ export const banners: BannerItem[] = [
   {
     id: 'b3',
     title: '',
-    subtitle: '保持联系，共享每一刻精彩',
+    subtitle: '',
     imageUrl: 'https://i.postimg.cc/TPCwH5kx/du-li-tong-zhi-ding3.webp',
     linkUrl: '#',
     accentColor: '#f59e0b',
