@@ -5,7 +5,7 @@ export const banners: BannerItem[] = [
     id: 'b1',
     title: '',
     subtitle: '',
-    imageUrl: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageUrl: 'https://i.postimg.cc/d041SZWv/du-li-tong-zhi-ding1.webp',
     linkUrl: '#',
     accentColor: '#0ea5e9',
   },
