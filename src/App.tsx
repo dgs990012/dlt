@@ -242,6 +242,95 @@ const apps: AppItem[] = [
     rating: 4.7,
     downloads: '55万+',
   },
+   {
+    id: 'app15',
+    name: 'NG体育',
+    tagline: '',
+    description: '专业采样、混音、母带处理，在手机上完成专辑级别的创作。',
+    category: 'entertainment',
+    imageUrl: 'https://pic1.imgdb.cn/item/68b3af8358cb8da5c8655b32.jpg',                                                         // 应用封面图片（替换此URL可更换图片）
+    linkUrl: 'https://nvjmce.hfjcl.com/app/register.php?site_id=1019&topId=10325130',                                          // 点击跳转链接
+    badge: '热门推荐',
+    rating: 4.7,
+    downloads: '55万+',
+  }, {
+    id: 'app16',
+    name: '保时捷',
+    tagline: '',
+    description: '专业采样、混音、母带处理，在手机上完成专辑级别的创作。',
+    category: 'entertainment',
+    imageUrl: 'https://pic1.imgdb.cn/item/68dbfe46c5157e1a884b253c.jpg',                                                         // 应用封面图片（替换此URL可更换图片）
+    linkUrl: 'https://bsj.iypcst.com/app/register.php?site_id=134523275&topId=82386',                                          // 点击跳转链接
+    badge: '热门推荐',
+    rating: 4.7,
+    downloads: '55万+',
+  }, {
+    id: 'app17',
+    name: '赏金国际',
+    tagline: '',
+    description: '专业采样、混音、母带处理，在手机上完成专辑级别的创作。',
+    category: 'entertainment',
+    imageUrl: 'https://pic1.imgdb.cn/item/688c1d0e58cb8da5c8f69d23.jpg',                                                         // 应用封面图片（替换此URL可更换图片）
+    linkUrl: 'https://xjvueb.hefaship.com/app/register.php?site_id=1010&topId=3094701',                                          // 点击跳转链接
+    badge: '热门推荐',
+    rating: 4.7,
+    downloads: '55万+',
+  }, {
+    id: 'app18',
+    name: '亿万28',
+    tagline: '',
+    description: '专业采样、混音、母带处理，在手机上完成专辑级别的创作。',
+    category: 'entertainment',
+    imageUrl: 'https://pic1.imgdb.cn/item/68a570b358cb8da5c83d12f9.jpg',                                                         // 应用封面图片（替换此URL可更换图片）
+    linkUrl: 'https://xjvueb.hefaship.com/app/register.php?site_id=1017&topId=7061046',                                          // 点击跳转链接
+    badge: '热门推荐',
+    rating: 4.7,
+    downloads: '55万+',
+  }, {
+    id: 'app19',
+    name: '大满贯',
+    tagline: '',
+    description: '专业采样、混音、母带处理，在手机上完成专辑级别的创作。',
+    category: 'entertainment',
+    imageUrl: 'https://pic1.imgdb.cn/item/6911f7f73203f7be00ed9d46.jpg',                                                         // 应用封面图片（替换此URL可更换图片）
+    linkUrl: 'https://tz.wxdmg6.cc/app/register.php?site_id=2228&topId=1661558',                                          // 点击跳转链接
+    badge: '热门推荐',
+    rating: 4.7,
+    downloads: '55万+',
+  }, {
+    id: 'app20',
+    name: '多多28',
+    tagline: '',
+    description: '专业采样、混音、母带处理，在手机上完成专辑级别的创作。',
+    category: 'entertainment',
+    imageUrl: 'https://pic1.imgdb.cn/item/686f644658cb8da5c899de0b.png',                                                         // 应用封面图片（替换此URL可更换图片）
+    linkUrl: 'https://wlkyiy.paradisemall.net/app/register.php?site_id=1021&topId=5519693',                                          // 点击跳转链接
+    badge: '热门推荐',
+    rating: 4.7,
+    downloads: '55万+',
+  }, {
+    id: 'app21',
+    name: '旺财28',
+    tagline: '',
+    description: '专业采样、混音、母带处理，在手机上完成专辑级别的创作。',
+    category: 'entertainment',
+    imageUrl: 'https://pic1.imgdb.cn/item/68b3af7e58cb8da5c8655b00.png',                                                         // 应用封面图片（替换此URL可更换图片）
+    linkUrl: 'https://wlkyiy.paradisemall.net/app/register.php?site_id=1012&topId=3926701',                                          // 点击跳转链接
+    badge: '热门推荐',
+    rating: 4.7,
+    downloads: '55万+',
+  }, {
+    id: 'app22',
+    name: '28圈',
+    tagline: '',
+    description: '专业采样、混音、母带处理，在手机上完成专辑级别的创作。',
+    category: 'entertainment',
+    imageUrl: 'https://pic1.imgdb.cn/item/689dd5ec58cb8da5c8251893.jpg',                                                         // 应用封面图片（替换此URL可更换图片）
+    linkUrl: 'https://149.30.163.235:32011/#/link?allwin=BT8jp798vc163kFA9xyh2g%3D%3D',                                          // 点击跳转链接
+    badge: '热门推荐',
+    rating: 4.7,
+    downloads: '55万+',
+  },
 ];
 
 // ════════════════════════════════════════════
