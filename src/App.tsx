@@ -414,8 +414,8 @@ function AppGrid({ apps }: { apps: AppItem[] }) {
   }
 
   return (
-    // 响应式网格：移动端4列，平板5-6列，桌面8列
-    <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-8 gap-4 md:gap-5">
+    // 响应式网格：手机3列，平板4列，桌面固定6列
+    <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-4 md:gap-5">
       {apps.map((app, i) => (
         // 每张卡片依次延迟淡入，形成错落动画
         <div
