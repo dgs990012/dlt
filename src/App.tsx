@@ -81,8 +81,8 @@ const apps: AppItem[] = [
     description: '用看板与时间轴掌控每一个项目进度，让团队协作更流畅。',
     category: 'productivity',
     imageUrl: 'https://pic1.imgdb.cn/item/68692e6658cb8da5c89176fd.jpg',                                                         // 应用封面图片（替换此URL可更换图片）
-    linkUrl: 'https://bakmry.gziasti.com/app/register.php?site_id=1050&topId=880722&selfPlanId=855049',                          // 点击跳转链接
-    badge: '热门推荐',                                                                                                            // 徽章文字（可选值：热门推荐 / 新品上线 / 强烈推荐，删除此行则不显示徽章）
+    linkUrl: 'https://bakmry.gziasti.com/app/register.php?site_id=1050&topId=880722&selfPlanId=855049',        // 点击跳转链接
+                                                                                                           // 徽章文字（可选值：热门推荐 / 新品上线 / 强烈推荐，删除此行则不显示徽章）
     rating: 4.9,
     downloads: '120万+',
   },
@@ -94,7 +94,6 @@ const apps: AppItem[] = [
     category: 'creative',
     imageUrl: 'https://pic1.imgdb.cn/item/69df01c6f76f4dd14b4c2858.jpg',                                                         // 应用封面图片（替换此URL可更换图片）
     linkUrl: 'https://mgokgd.jgqvji.com/app/register.php?site_id=1061&pt=08A0E1AF-96B3-A9C8-6E51-1D02FD14ABAC',                 // 点击跳转链接
-    badge: '新品上线',
     rating: 4.8,
     downloads: '85万+',
   },
@@ -106,7 +105,6 @@ const apps: AppItem[] = [
     category: 'social',
     imageUrl: 'https://pic1.imgdb.cn/item/695248a74b4fb88febf26626.jpg',                                                         // 应用封面图片（替换此URL可更换图片）
     linkUrl: 'https://tfajn.hcjwj.com/app/register.php?site_id=2081&topId=23647&selfPlanId=6413',                               // 点击跳转链接
-    badge: '新品上线',
     rating: 4.7,
     downloads: '300万+',
   },
@@ -118,7 +116,6 @@ const apps: AppItem[] = [
     category: 'finance',
     imageUrl: 'https://pic1.imgdb.cn/item/69da7d4e757fdade5eafac10.jpg',                                                         // 应用封面图片（替换此URL可更换图片）
     linkUrl: 'https://ncgca.tprsmi.com/app/register.php?site_id=1062&topId=13593&selfPlanId=918',                               // 点击跳转链接
-    badge: '新品上线',
     rating: 4.6,
     downloads: '60万+',
   },
@@ -130,7 +127,6 @@ const apps: AppItem[] = [
     category: 'health',
     imageUrl: 'https://i.postimg.cc/FzGDYZpB/xin-TOP-ti-yu.jpg',                                                                 // 应用封面图片（替换此URL可更换图片）
     linkUrl: 'https://bakmry.gziasti.com/app/register.php?site_id=1051&topId=457911',                                            // 点击跳转链接
-    badge: '热门推荐',
     rating: 4.8,
     downloads: '200万+',
   },
@@ -142,7 +138,6 @@ const apps: AppItem[] = [
     category: 'entertainment',
     imageUrl: 'https://i.postimg.cc/t4SjcBzw/xin-shi-dai.jpg',                                                                   // 应用封面图片（替换此URL可更换图片）
     linkUrl: 'https://derear.fnbpsw.com/app/register.php?site_id=1059&topId=82351&selfPlanId=144338',                            // 点击跳转链接
-    badge: '热门推荐',
     rating: 4.5,
     downloads: '150万+',
   },
@@ -154,7 +149,6 @@ const apps: AppItem[] = [
     category: 'productivity',
     imageUrl: 'https://pic1.imgdb.cn/item/6984d021312b01a291a7449f.webp',                                                        // 应用封面图片（替换此URL可更换图片）
     linkUrl: 'https://onkrcy.hefaship.com/app/register.php?site_id=1020&topId=21543657',                                         // 点击跳转链接
-    badge: '热门推荐',
     rating: 4.9,
     downloads: '95万+',
   },
@@ -166,7 +160,6 @@ const apps: AppItem[] = [
     category: 'creative',
     imageUrl: 'https://pic1.imgdb.cn/item/688c1d0e58cb8da5c8f69d21.webp',                                                        // 应用封面图片（替换此URL可更换图片）
     linkUrl: 'https://gfvgx.jgqvji.com/app/register.php?site_id=800&pt=20784FBB-9EDA-E1C7-A955-C82CA771D0F3',                   // 点击跳转链接
-    badge: '热门推荐',
     rating: 4.7,
     downloads: '40万+',
   },
@@ -176,9 +169,8 @@ const apps: AppItem[] = [
     tagline: '',
     description: '基于兴趣标签匹配，加入同频圈子，发现真实的人与故事。',
     category: 'social',
-    imageUrl: 'https://i.postimg.cc/D05BSg6D/xin-sheng-tian-guo-ji.jpg',                                                         // 应用封面图片（替换此URL可更换图片）
+    imageUrl: 'https://pic1.imgdb.cn/item/6937c17f00233646958cd102.jpg',                                                         // 应用封面图片（替换此URL可更换图片）
     linkUrl: 'https://tfajn.hcjwj.com/app/register.php?site_id=1058&topId=26442&selfPlanId=1692',                               // 点击跳转链接
-    badge: '热门推荐',
     rating: 4.4,
     downloads: '180万+',
   },
@@ -190,7 +182,6 @@ const apps: AppItem[] = [
     category: 'finance',
     imageUrl: 'https://pic1.imgdb.cn/item/68692e6558cb8da5c89176f7.jpg',                                                         // 应用封面图片（替换此URL可更换图片）
     linkUrl: 'https://pkajim.hfjcl.com/app/register.php?site_id=1032&topId=1056008',                                             // 点击跳转链接
-    badge: '热门推荐',
     rating: 4.6,
     downloads: '75万+',
   },
@@ -202,7 +193,6 @@ const apps: AppItem[] = [
     category: 'health',
     imageUrl: 'https://pic1.imgdb.cn/item/68692e6758cb8da5c89176fe.jpg',                                                         // 应用封面图片（替换此URL可更换图片）
     linkUrl: 'https://tz.wx-zxivoq2.com/app/register.php?site_id=2173&topId=1090266',                                            // 点击跳转链接
-    badge: '热门推荐',
     rating: 4.8,
     downloads: '110万+',
   },
@@ -214,7 +204,6 @@ const apps: AppItem[] = [
     category: 'entertainment',
     imageUrl: 'https://pic1.imgdb.cn/item/68692e6658cb8da5c89176fc.jpg',                                                         // 应用封面图片（替换此URL可更换图片）
     linkUrl: 'https://pkajim.hfjcl.com/app/register.php?site_id=1031&topId=1890399',                                             // 点击跳转链接
-    badge: '热门推荐',
     rating: 4.7,
     downloads: '55万+',
   },
@@ -226,7 +215,6 @@ const apps: AppItem[] = [
     category: 'entertainment',
     imageUrl: 'https://pic1.imgdb.cn/item/68692e6658cb8da5c89176f8.jpg',                                                         // 应用封面图片（替换此URL可更换图片）
     linkUrl: 'https://gfvgx.jgqvji.com/app/register.php?site_id=1030&topId=1744632',                                             // 点击跳转链接
-    badge: '热门推荐',
     rating: 4.7,
     downloads: '55万+',
   },
@@ -238,7 +226,6 @@ const apps: AppItem[] = [
     category: 'entertainment',
     imageUrl: 'https://pic1.imgdb.cn/item/689dd5ec58cb8da5c8251893.jpg',                                                         // 应用封面图片（替换此URL可更换图片）
     linkUrl: 'https://149.30.163.235:32011/#/link?allwin=BT8jp798vc163kFA9xyh2g%3D%3D',                                          // 点击跳转链接
-    badge: '热门推荐',
     rating: 4.7,
     downloads: '55万+',
   },
@@ -250,7 +237,6 @@ const apps: AppItem[] = [
     category: 'entertainment',
     imageUrl: 'https://pic1.imgdb.cn/item/68b3af8358cb8da5c8655b32.jpg',                                                         // 应用封面图片（替换此URL可更换图片）
     linkUrl: 'https://nvjmce.hfjcl.com/app/register.php?site_id=1019&topId=10325130',                                          // 点击跳转链接
-    badge: '热门推荐',
     rating: 4.7,
     downloads: '55万+',
   }, {
@@ -261,7 +247,6 @@ const apps: AppItem[] = [
     category: 'entertainment',
     imageUrl: 'https://pic1.imgdb.cn/item/68dbfe46c5157e1a884b253c.jpg',                                                         // 应用封面图片（替换此URL可更换图片）
     linkUrl: 'https://bsj.iypcst.com/app/register.php?site_id=134523275&topId=82386',                                          // 点击跳转链接
-    badge: '热门推荐',
     rating: 4.7,
     downloads: '55万+',
   }, {
@@ -272,7 +257,6 @@ const apps: AppItem[] = [
     category: 'entertainment',
     imageUrl: 'https://pic1.imgdb.cn/item/688c1d0e58cb8da5c8f69d23.jpg',                                                         // 应用封面图片（替换此URL可更换图片）
     linkUrl: 'https://xjvueb.hefaship.com/app/register.php?site_id=1010&topId=3094701',                                          // 点击跳转链接
-    badge: '热门推荐',
     rating: 4.7,
     downloads: '55万+',
   }, {
@@ -283,7 +267,6 @@ const apps: AppItem[] = [
     category: 'entertainment',
     imageUrl: 'https://pic1.imgdb.cn/item/68a570b358cb8da5c83d12f9.jpg',                                                         // 应用封面图片（替换此URL可更换图片）
     linkUrl: 'https://xjvueb.hefaship.com/app/register.php?site_id=1017&topId=7061046',                                          // 点击跳转链接
-    badge: '热门推荐',
     rating: 4.7,
     downloads: '55万+',
   }, {
@@ -294,7 +277,6 @@ const apps: AppItem[] = [
     category: 'entertainment',
     imageUrl: 'https://pic1.imgdb.cn/item/6911f7f73203f7be00ed9d46.jpg',                                                         // 应用封面图片（替换此URL可更换图片）
     linkUrl: 'https://tz.wxdmg6.cc/app/register.php?site_id=2228&topId=1661558',                                          // 点击跳转链接
-    badge: '热门推荐',
     rating: 4.7,
     downloads: '55万+',
   }, {
@@ -305,7 +287,6 @@ const apps: AppItem[] = [
     category: 'entertainment',
     imageUrl: 'https://pic1.imgdb.cn/item/686f644658cb8da5c899de0b.png',                                                         // 应用封面图片（替换此URL可更换图片）
     linkUrl: 'https://wlkyiy.paradisemall.net/app/register.php?site_id=1021&topId=5519693',                                          // 点击跳转链接
-    badge: '热门推荐',
     rating: 4.7,
     downloads: '55万+',
   }, {
@@ -316,7 +297,6 @@ const apps: AppItem[] = [
     category: 'entertainment',
     imageUrl: 'https://pic1.imgdb.cn/item/68b3af7e58cb8da5c8655b00.png',                                                         // 应用封面图片（替换此URL可更换图片）
     linkUrl: 'https://wlkyiy.paradisemall.net/app/register.php?site_id=1012&topId=3926701',                                          // 点击跳转链接
-    badge: '热门推荐',
     rating: 4.7,
     downloads: '55万+',
   }, {
@@ -327,7 +307,6 @@ const apps: AppItem[] = [
     category: 'entertainment',
     imageUrl: 'https://pic1.imgdb.cn/item/68692e6658cb8da5c89176f9.jpg',                                                         // 应用封面图片（替换此URL可更换图片）
     linkUrl: 'https://149.30.163.235:32011/#/link?allwin=BT8jp798vc163kFA9xyh2g%3D%3D',                                          // 点击跳转链接
-    badge: '热门推荐',
     rating: 4.7,
     downloads: '55万+',
   },
