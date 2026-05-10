@@ -74,18 +74,7 @@ const banners: BannerItem[] = [
 // ════════════════════════════════════════════
 
 const apps: AppItem[] = [
-    {
-    id: 'app1',
-    name: '领航国际',                                                                                                             // 应用名称
-    tagline: '',                                                                                                                   // 副标语（可填写，留空则不显示）
-    description: '用看板与时间轴掌控每一个项目进度，让团队协作更流畅。',
-    category: 'productivity',
-    imageUrl: 'https://pic1.imgdb.cn/item/69f4835ec16184acf99e4245.jpg',                                                         // 应用封面图片（替换此URL可更换图片）
-    linkUrl: 'https://rsesra.hfjcl.com/app/register.php?site_id=1064&pt=FA9067F8-D104-5451-A6AB-960962BAB808',        // 点击跳转链接
-                                                                                                           // 徽章文字（可选值：热门推荐 / 新品上线 / 强烈推荐，删除此行则不显示徽章）
-    rating: 4.9,
-    downloads: '120万+',
-  },
+  
   {
     id: 'app1',
     name: '非凡娱乐',                                                                                                             // 应用名称
@@ -285,7 +274,7 @@ const apps: AppItem[] = [
     downloads: '55万+',
   },
   {
-    id: 'app20',
+    id: 'app19',
     name: '多多28',
     tagline: '',
     description: '专业采样、混音、母带处理，在手机上完成专辑级别的创作。',
@@ -294,7 +283,19 @@ const apps: AppItem[] = [
     linkUrl: 'https://wlkyiy.paradisemall.net/app/register.php?site_id=1021&topId=5519693',                                          // 点击跳转链接
     rating: 4.7,
     downloads: '55万+',
-  }, {
+  },
+    {
+    id: 'app202',
+    name: '领航国际',                                                                                                             // 应用名称
+    tagline: '',                                                                                                                   // 副标语（可填写，留空则不显示）
+    description: '用看板与时间轴掌控每一个项目进度，让团队协作更流畅。',
+    category: 'productivity',
+    imageUrl: 'https://pic1.imgdb.cn/item/69f4835ec16184acf99e4245.jpg',                                                         // 应用封面图片（替换此URL可更换图片）
+    linkUrl: 'https://rsesra.hfjcl.com/app/register.php?site_id=1064&pt=FA9067F8-D104-5451-A6AB-960962BAB808',        // 点击跳转链接
+                                                                                                           // 徽章文字（可选值：热门推荐 / 新品上线 / 强烈推荐，删除此行则不显示徽章）
+    rating: 4.9,
+    downloads: '120万+',
+  },{
     id: 'app21',
     name: '旺财28',
     tagline: '',
