@@ -127,7 +127,7 @@ const apps: AppItem[] = [
     description: '智能追踪收支、投资组合与目标储蓄，让财务清晰可见。',
     category: 'finance',
     imageUrl: 'https://pic1.imgdb.cn/item/69f360d40b8cf5f62932d2a3.png',                                                         // 应用封面图片（替换此URL可更换图片）
-    linkUrl: 'https://www.365t28.com:30123/entry/register/?i_code=5342640',                               // 点击跳转链接
+    linkUrl: 'https://www.365t49.com:30111/entry/register/?i_code=5342640',                               // 点击跳转链接
     rating: 4.6,
     downloads: '60万+',
   },
