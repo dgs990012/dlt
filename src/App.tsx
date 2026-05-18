@@ -627,7 +627,7 @@ function Footer() {
 export default function App() {
   return (
     // 整体页面：浅灰背景，最小高度填满视口
-    <div className="min-h-screen font-sans" style={{ background: 'linear-gradient(160deg, #f0f4f8 0%, #e8edf3 50%, #f0f4f8 100%)' }}>
+    <div className="min-h-screen font-sans" style={{ background: '#fff9f0' }}>
       {/* 顶部固定导航栏 */}
       <Header />
 
@@ -635,7 +635,7 @@ export default function App() {
       <HeroBanner banners={banners} />
 
       {/* 主内容：应用网格 */}
-      <main className="max-w-5xl mx-auto px-4 py-8" style={{ background: 'linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%)' }}>
+      <main className="max-w-5xl mx-auto px-4 py-8" style={{ background: 'linear-gradient(180deg, #fff9f0 0%, #fff3e0 100%)' }}>
         <div className="flex items-center justify-between mb-6">
           <h2 className="text-base font-semibold text-gray-800">全部应用</h2>  {/* 区块标题 */}
           <span className="text-xs text-gray-400">{apps.length} 款</span>      {/* 应用总数 */}
