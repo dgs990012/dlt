@@ -367,40 +367,48 @@ const badgeColors: Record<string, string> = {
 // ─── 单个应用卡片组件 ───
 function AppCard({ app }: { app: AppItem }) {
   return (
-    // 整个卡片为链接，点击跳转到应用页面
-    <a href={app.linkUrl} className="group flex flex-col items-center text-center gap-1.5">
-      {/* 图片容器：固定正方形比例，圆角，悬停阴影加深 */}
-      <div className="relative w-full aspect-square rounded-2xl overflow-hidden bg-gray-100 shadow-sm group-hover:shadow-md transition-shadow duration-300">
-        {/* 封面图片：悬停时轻微放大 */}
-        <img
-          src={app.imageUrl}
-          alt={app.name}
-          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-        />
-        {/* 若定义了徽章则显示在图片左上角 */}
-        {app.badge && (
-          <span
-            className={`absolute top-1.5 left-1.5 ${badgeColors[app.badge] ?? 'bg-gray-700'} text-white text-[9px] font-semibold px-1.5 py-0.5 rounded-full`}
-          >
-            {app.badge}
-          </span>
-        )}
+    <a
+      href={app.linkUrl}
+      className="group flex flex-col items-center text-center"
+    >
+      {/* 卡片外框：细边框 + 圆角 + 悬停阴影 */}
+      <div className="w-full rounded-xl border border-gray-200/80 bg-white shadow-[0_1px_4px_rgba(0,0,0,0.06)] group-hover:shadow-[0_4px_16px_rgba(0,0,0,0.12)] group-hover:border-gray-300 transition-all duration-300 overflow-hidden">
+        {/* 图片区：正方形比例 */}
+        <div className="relative w-full aspect-square overflow-hidden bg-gray-100">
+          <img
+            src={app.imageUrl}
+            alt={app.name}
+            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+          />
+          {/* 悬停时底部渐变叠层 */}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+          {/* 徽章 */}
+          {app.badge && (
+            <span
+              className={`absolute top-1 left-1 ${badgeColors[app.badge] ?? 'bg-gray-700'} text-white text-[7px] font-bold px-1.5 py-0.5 rounded-md shadow-sm`}
+            >
+              {app.badge}
+            </span>
+          )}
+        </div>
+        {/* 名称区：内嵌在卡片下方 */}
+        <div className="px-1.5 py-1.5 border-t border-gray-100">
+          <p className="text-[10px] font-semibold text-gray-800 leading-tight line-clamp-1">
+            {app.name}
+          </p>
+          {app.tagline && (
+            <p className="text-[8px] text-gray-400 leading-tight line-clamp-1 mt-0.5">
+              {app.tagline}
+            </p>
+          )}
+        </div>
       </div>
-      {/* 应用名称：超出一行时截断省略，移动端字号更小 */}
-      <p className="text-[10px] md:text-xs font-medium text-gray-800 leading-tight line-clamp-1 w-full px-0.5">
-        {app.name}
-      </p>
-      {/* 副标语：超出一行时截断省略 */}
-      <p className="text-[9px] md:text-[10px] text-gray-400 leading-tight line-clamp-1 w-full px-0.5">
-        {app.tagline}
-      </p>
     </a>
   );
 }
 
 // ─── 应用网格列表组件 ───
 function AppGrid({ apps }: { apps: AppItem[] }) {
-  // 无数据时显示空状态提示
   if (apps.length === 0) {
     return (
       <div className="flex flex-col items-center justify-center py-24 text-gray-400">
@@ -411,13 +419,11 @@ function AppGrid({ apps }: { apps: AppItem[] }) {
   }
 
   return (
-    // 移动端5列，桌面6列
-    <div className="grid grid-cols-5 md:grid-cols-6 gap-2 md:gap-5">
+    <div className="grid grid-cols-5 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10 gap-2 md:gap-3">
       {apps.map((app, i) => (
-        // 每张卡片依次延迟淡入，形成错落动画
         <div
           key={app.id}
-          style={{ animationDelay: `${i * 50}ms`, animation: 'fadeIn 0.4s ease forwards', opacity: 0 }}
+          style={{ animationDelay: `${i * 40}ms`, animation: 'fadeIn 0.4s ease forwards', opacity: 0 }}
         >
           <AppCard app={app} />
         </div>
@@ -621,7 +627,7 @@ function Footer() {
 export default function App() {
   return (
     // 整体页面：浅灰背景，最小高度填满视口
-    <div className="min-h-screen bg-gray-50 font-sans">
+    <div className="min-h-screen font-sans" style={{ background: 'linear-gradient(160deg, #f0f4f8 0%, #e8edf3 50%, #f0f4f8 100%)' }}>
       {/* 顶部固定导航栏 */}
       <Header />
 
@@ -629,7 +635,7 @@ export default function App() {
       <HeroBanner banners={banners} />
 
       {/* 主内容：应用网格 */}
-      <main className="max-w-5xl mx-auto px-4 py-8">
+      <main className="max-w-5xl mx-auto px-4 py-8" style={{ background: 'linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%)' }}>
         <div className="flex items-center justify-between mb-6">
           <h2 className="text-base font-semibold text-gray-800">全部应用</h2>  {/* 区块标题 */}
           <span className="text-xs text-gray-400">{apps.length} 款</span>      {/* 应用总数 */}
