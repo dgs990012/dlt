@@ -411,8 +411,8 @@ function AppGrid({ apps }: { apps: AppItem[] }) {
   }
 
   return (
-    // 移动端2列，平板3列，桌面4列
-    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 md:gap-6">
+    // 移动端5列，桌面6列
+    <div className="grid grid-cols-5 md:grid-cols-6 gap-2 md:gap-5">
       {apps.map((app, i) => (
         // 每张卡片依次延迟淡入，形成错落动画
         <div
