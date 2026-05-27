@@ -74,6 +74,7 @@ const banners: BannerItem[] = [
 // ════════════════════════════════════════════
 
 const apps: AppItem[] = [
+  {
     id: 'app1',
     name: '非凡娱乐',                                                                                                             // 应用名称
     tagline: '',                                                                                                                   // 副标语（可填写，留空则不显示）
