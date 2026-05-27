@@ -327,6 +327,18 @@ const apps: AppItem[] = [
     rating: 4.7,
     downloads: '55万+',
   },
+  {
+    id: 'app1',
+    name: '戴高乐',                                                                                                             // 应用名称
+    tagline: '',                                                                                                                   // 副标语（可填写，留空则不显示）
+    description: '用看板与时间轴掌控每一个项目进度，让团队协作更流畅。',
+    category: 'productivity',
+    imageUrl: 'https://pic1.imgdb.cn/item/6a16f2efcf685663461371d7.jpg',                                                         // 应用封面图片（替换此URL可更换图片）
+    linkUrl: 'https://hbffbr.hcjwj.com/app/register.php?site_id=2091&topId=79040',        // 点击跳转链接
+                                                                                                           // 徽章文字（可选值：热门推荐 / 新品上线 / 强烈推荐，删除此行则不显示徽章）
+    rating: 4.9,
+    downloads: '120万+',
+  },
 ];
 
 // ════════════════════════════════════════════
