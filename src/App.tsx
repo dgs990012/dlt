@@ -235,7 +235,7 @@ const apps: AppItem[] = [
          {
       id: 'app1',
       name: '戴高乐',
-      tagline: '筹备开业，敬请期待。',
+      tagline: '筹备开业，敬请期待',
       imageUrl: 'https://pic1.imgdb.cn/item/6a16f2efcf685663461371d7.jpg',
       linkUrl: 'https://hbffbr.hcjwj.com/app/register.php?site_id=2091&topId=79040'
     }, 
