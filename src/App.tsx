@@ -70,7 +70,14 @@ const banners: BannerItem[] = [
 // ════════════════════════════════════════════
 
 const apps: AppItem[] = [
-       {
+      {
+    id: 'app17',
+    name: '龙腾国际',
+    tagline: '',
+    imageUrl: 'https://pic1.imgdb.cn/item/6a23ec2f0c24090b1026d76e.jpg',
+    linkUrl: 'https://psktkx.tckqxx.com/app/register.php?site_id=1065&topId=27266&selfPlanId=896',
+  },
+  {
       id: 'app1',
       name: '聚鑫汇',
       tagline: '',
@@ -181,13 +188,6 @@ const apps: AppItem[] = [
     tagline: '',
     imageUrl: 'https://pic1.imgdb.cn/item/68692e6658cb8da5c89176f8.jpg',
     linkUrl: 'https://gfvgx.jgqvji.com/app/register.php?site_id=1030&topId=1744632',
-  },
-   {
-    id: 'app17',
-    name: '龙腾国际',
-    tagline: '',
-    imageUrl: 'https://pic1.imgdb.cn/item/6a23ec2f0c24090b1026d76e.jpg',
-    linkUrl: 'https://psktkx.tckqxx.com/app/register.php?site_id=1065&topId=27266&selfPlanId=896',
   },
   {
     id: 'app18',
