@@ -27,7 +27,7 @@ export const apps: AppItem[] = [
     name: '非凡娱乐',
     tagline: '',
     imageUrl: 'https://pic1.imgdb.cn/item/68692e6658cb8da5c89176fd.jpg',
-    linkUrl: 'https://bakmry.gziasti.com/app/register.php?site_id=1050&topId=880722&selfPlanId=855049',
+    linkUrl: 'https://lncqc.jgqvji.com/app/register.php?site_id=1050&topId=3491763480092190&selfPlanId=798835',
   },
   {
     id: 'app4',
