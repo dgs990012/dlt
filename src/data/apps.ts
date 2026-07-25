@@ -55,7 +55,7 @@ export const apps: AppItem[] = [
     name: '365体育汇',
     tagline: '',
     imageUrl: 'https://pic1.imgdb.cn/item/6a3d3f02bb21102f81d61193.jpg',
-    linkUrl: 'https://www.365t28.com:30123/entry/register/?i_code=5342640',
+    linkUrl: 'https://www.365t53.vip:30894/?i_code=5342640',
   },
   {
     id: 'app8',
