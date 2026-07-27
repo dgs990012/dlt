@@ -1,6 +1,13 @@
 import type { AppItem } from '../types';
 
 export const apps: AppItem[] = [
+ {
+    id: 'app',
+    name: '纵横国际',
+    tagline: '',
+    imageUrl: 'https://pic1.imgdb.cn/i/033wuD0CyDVlAA0wRh1b38.jpg',
+    linkUrl: 'http://xnqwzf.tckqxx.com/app/register.php?site_id=1067&topId=7071785164141492&selfPlanId=792',
+  },
   {
     id: 'app1',
     name: '聚鑫汇',
@@ -15,13 +22,7 @@ export const apps: AppItem[] = [
     imageUrl: 'https://pic1.imgdb.cn/item/6a23ec2f0c24090b1026d76e.jpg',
     linkUrl: 'https://psktkx.tckqxx.com/app/register.php?site_id=1065&topId=27266&selfPlanId=896',
   },
-  {
-    id: 'app2',
-    name: '戴高乐',
-    tagline: '',
-    imageUrl: 'https://pic1.imgdb.cn/item/6a16f2efcf685663461371d7.jpg',
-    linkUrl: 'https://hbffbr.hcjwj.com/app/register.php?site_id=2091&topId=79040',
-  },
+  
   {
     id: 'app3',
     name: '非凡娱乐',
@@ -29,13 +30,7 @@ export const apps: AppItem[] = [
     imageUrl: 'https://pic1.imgdb.cn/item/68692e6658cb8da5c89176fd.jpg',
     linkUrl: 'https://lncqc.jgqvji.com/app/register.php?site_id=1050&topId=3491763480092190&selfPlanId=798835',
   },
-  {
-    id: 'app4',
-    name: '梦想国际',
-    tagline: '',
-    imageUrl: 'https://pic1.imgdb.cn/item/69df01c6f76f4dd14b4c2858.jpg',
-    linkUrl: 'https://mgokgd.jgqvji.com/app/register.php?site_id=1061&pt=08A0E1AF-96B3-A9C8-6E51-1D02FD14ABAC',
-  },
+  
   {
     id: 'app5',
     name: '君临国际',
@@ -50,13 +45,7 @@ export const apps: AppItem[] = [
     imageUrl: 'https://pic1.imgdb.cn/item/69da7d4e757fdade5eafac10.jpg',
     linkUrl: 'https://ncgca.tprsmi.com/app/register.php?site_id=1062&topId=13593&selfPlanId=918',
   },
-  {
-    id: 'app7',
-    name: '365体育汇',
-    tagline: '',
-    imageUrl: 'https://pic1.imgdb.cn/item/6a3d3f02bb21102f81d61193.jpg',
-    linkUrl: 'https://www.365t53.vip:30894/?i_code=5342640',
-  },
+ 
   {
     id: 'app8',
     name: 'top1体育',
@@ -114,6 +103,13 @@ export const apps: AppItem[] = [
     linkUrl: 'https://pkajim.hfjcl.com/app/register.php?site_id=1031&topId=1890399',
   },
   {
+    id: 'app4',
+    name: '梦想国际',
+    tagline: '',
+    imageUrl: 'https://pic1.imgdb.cn/item/69df01c6f76f4dd14b4c2858.jpg',
+    linkUrl: 'https://mgokgd.jgqvji.com/app/register.php?site_id=1061&pt=08A0E1AF-96B3-A9C8-6E51-1D02FD14ABAC',
+  },
+  {
     id: 'app16',
     name: '巅峰国际',
     tagline: '',
@@ -122,7 +118,7 @@ export const apps: AppItem[] = [
   },
   {
     id: 'app18',
-    name: 'NG南宫',
+    name: 'NG28',
     tagline: '',
     imageUrl: 'https://pic1.imgdb.cn/item/689dd5ec58cb8da5c8251893.jpg',
     linkUrl: 'https://149.30.163.235:32011/#/link?allwin=BT8jp798vc163kFA9xyh2g%3D%3D',
@@ -168,6 +164,13 @@ export const apps: AppItem[] = [
     tagline: '',
     imageUrl: 'https://pic1.imgdb.cn/item/686f644658cb8da5c899de0b.png',
     linkUrl: 'https://wlkyiy.paradisemall.net/app/register.php?site_id=1021&topId=5519693',
+  },
+  {
+    id: 'app2',
+    name: '戴高乐',
+    tagline: '',
+    imageUrl: 'https://pic1.imgdb.cn/item/6a16f2efcf685663461371d7.jpg',
+    linkUrl: 'https://hbffbr.hcjwj.com/app/register.php?site_id=2091&topId=79040',
   },
   {
     id: 'app25',
